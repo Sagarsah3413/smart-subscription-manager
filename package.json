@@ -1,0 +1,48 @@
+{
+  "name": "subdub",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "netlify deploy --prod",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@arcjet/node": "^1.0.0-beta.2",
+    "@upstash/workflow": "^0.2.7",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.4",
+    "dayjs": "^1.11.13",
+    "debug": "~2.6.9",
+    "dotenv": "^16.4.7",
+    "express": "~4.16.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.13.0",
+    "mongoose": "^8.9.7",
+    "morgan": "~1.9.1",
+    "netlify-cli": "^21.5.0",
+    "netlify-lambda": "^2.0.16",
+    "nodemailer": "^6.10.0",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "eslint": "^9.19.0",
+    "globals": "^15.14.0",
+    "nodemon": "^3.1.9"
+  },
+  "description": "<div align=\"center\">\r   <br />\r     <a href=\"https://youtu.be/rOpEN1JDaD0?si=WfOjLV57WfR9x6QK\" target=\"_blank\">\r       <img src=\"https://i.ibb.co/xtTbHkfs/Readme-Thumbnail.png\" alt=\"Project Banner\">\r     </a>\r   <br />",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianhajdin/subscription-tracker-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianhajdin/subscription-tracker-api/issues"
+  },
+  "homepage": "https://github.com/adrianhajdin/subscription-tracker-api#readme"
+}
